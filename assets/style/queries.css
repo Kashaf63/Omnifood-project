@@ -1,0 +1,267 @@
+@media (max-width: 84em){
+    .hero{
+        max-width:120rem;
+    }
+    .heading-primary{
+        font-size: 4.4rem;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr) ;
+        gap: 1.4rem;
+        
+        padding: 1.4rem;
+    }
+}
+@media (max-width:75em){
+    
+    html{
+        font-size: 8px;
+    }
+    .hero{
+        column-gap:11rem;
+        row-gap:4rem;
+    }
+    .grid-4--column{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .grid{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .grid--three-colum{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .section-testimonials{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .testimonials{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .gallery{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .grid--2{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .cta-container{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .cta-form{
+ column-gap:4rem;
+ row-gap:4rem;
+    }
+    .grid--5col{
+         column-gap:4rem;
+         row-gap:4rem;
+    }
+    .header{
+        padding: 0 3.1rem;
+    }
+    .main-nav-list{
+        gap: 3.2rem;
+    }
+    .testimonial-container{
+        padding: 9.6 .2rem;
+    }
+}
+@media(max-width:59em){
+    html{
+        font-size: 7px;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+    }
+    .hero-img{
+        width: 60%;
+    }
+    .hero-text-box{
+        text-align: center;
+        padding: 0 8rem;
+    }
+    .hero-img-box{
+        text-align: center;
+    }
+    .delivered-meals{
+        margin-top: 4rem;
+    }
+    .logi{
+        height: 2.4rem;
+    }
+    .step-number{
+        font-size: 7.2rem;
+    }
+    .heading-tertiary{
+        font-size: 2.8rem;
+    }
+    .card-helper{
+        width: 80%;
+    }
+    .meal-title{
+        font-size: 2.4rem;
+    }
+    .section-testimonials{
+        grid-template-columns: 1fr;
+        padding-bottom: 4rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(6,1fr);
+        gap: 1rem;
+    }
+    .pricing-card1,
+    .pricing-card2{
+        width: 70%;
+    }
+    .cta-container{
+        grid-template-columns: 3fr 2fr;
+    }
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+    .main-nav-list{
+        display: none;
+    }
+    
+}
+@media (min-width:59em) {
+    .mobile-nav {
+        display: none;
+    }
+    .hamburger {
+        display: none;
+    }
+
+}
+@media(max-width:45em){
+    .grid-4--column,
+    .grid--three-column{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .feature{
+        height: 20rem;
+    }
+    .feature-icon{
+        height: 30%;
+    }
+    .main-diet-list{
+        grid-column: 1/-1;
+        width: 30%;
+        justify-self: center;
+    }
+    .list-diet{
+        gap: 2rem;
+    }
+    .card-last-ankor{
+        padding-top: 4rem;
+    }
+    .pricing-card1,
+    .pricing-card2{
+        width: 100%;
+    }
+    .heading-tertiary{
+        font-size: 2.4rem;
+    }
+    .heading-primary{
+        font-size: 3rem;
+    }
+    .heading-secondary{
+        font-size: 3rem;
+    }
+    .sup{
+        font-size: 3rem;
+    }
+    .testimonial-text{
+        font-size: 1.6rem;
+    }
+    .subheading{
+        font-size: 1.4rem;
+    }
+    .sub{
+        font-size:  1.4rem;
+    }
+    .grid--5col{
+        grid-template-columns: repeat(6 , 1fr);
+    }
+    .nav-col{
+        grid-row: 1/-1;
+        grid-column: span 2;
+        margin-bottom: 3rem;
+    }
+    .address-col{
+        grid-column: span 3;
+    }
+    .logo-col{
+        grid-column: span 3;
+    }
+}
+@media (max-width:34em){
+html {
+    font-size: 6px;
+}
+    .grid--three-column{
+        grid-template-columns: 1fr;
+    }
+    .grid{
+    grid-template-columns: 1fr;  
+    }
+    .grid--2{
+        grid-template-columns: 1fr;
+    }
+    /* .cta-container{
+        grid-template-columns: 1fr;
+    } */
+    .grid-4--column{
+        grid-template-columns: 1fr;
+    }
+    .section-featured{
+
+    }
+    .logi{
+        height: 1.2rem;
+    }
+    .hero{
+        padding: 0 -0.9rem;
+    }
+    .hero-text-box{
+        padding: 0px 0rem;
+    }
+    .section-hero{
+        padding: 6rem 0;
+    }
+    .hero-img {
+        width: 76%;
+    }
+    .img1{
+        grid-row:1/-1 ;
+    }
+    .img3{
+        grid-row: 5/5;
+    }
+    .testimonials{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .cta-container{
+        grid-template-columns: 1fr;
+    }
+    .cta-img-box{
+        height: 32rem;
+        grid-row: 1/-1;
+    }
+    .cta-text-box{
+        padding: 1rem;
+        margin: 0 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
